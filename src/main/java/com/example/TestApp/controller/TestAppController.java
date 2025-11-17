@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://test-crud-app.netlify.app/")
+@CrossOrigin(origins = {"http://127.0.0.1:5500"})
 public class TestAppController {
 
     @Autowired
