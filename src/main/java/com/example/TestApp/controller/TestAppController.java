@@ -9,7 +9,8 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = {"http://127.0.0.1:5500",
-                        "https://srinath318.github.io"})
+                        "https://srinath318.github.io",
+                        "http://testcrud.srinath.online"})
 public class TestAppController {
 
     @Autowired
